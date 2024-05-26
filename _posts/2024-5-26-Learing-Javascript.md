@@ -9,7 +9,7 @@ Today I decided to start learning Javascript, by making a small tool. I decided 
 
 I started by making a basic character counter. It counts the amount of characters in a string.
 
-```Javascript
+```javascript
 function updateText() {
     let outputLabel = document.getElementById("output");
     let textField = document.getElementById("input");
@@ -20,7 +20,7 @@ function updateText() {
 }
 ```
 
-This script takes the input from a <textarea> and counts the amount of characters in it.
+This script takes the input from a textarea and counts the amount of characters in it.
 
 Here is a preview:
 
@@ -28,7 +28,7 @@ Here is a preview:
 
 Then I added a word counter.
 
-```Javascript
+```javascript
 function updateWordCount(){
     let wordLabel = document.getElementById("wordCount");
     let textField = document.getElementById("input");
@@ -56,7 +56,7 @@ Here is a preview:
 
 As a last feature, I added a "Common words" list. This list shows the top 10 most common words in your text.
 
-```Javascript
+```javascript
 function updateWordList() {
     let wordListHolder = document.getElementById("wordList");
     let textField = document.getElementById("input");
